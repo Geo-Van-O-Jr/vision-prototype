@@ -17,7 +17,7 @@ export function Header() {
     <header className="border-b">
       <div className="flex h-16 items-center px-4 gap-4">
         <div className="flex-1">
-          <h1 className="text-2xl font-bold">NextERP</h1>
+          <h1 className="text-2xl font-bold">Vision</h1>
         </div>
         
         <div className="flex items-center gap-4">

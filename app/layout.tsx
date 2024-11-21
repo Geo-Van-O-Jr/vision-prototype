@@ -9,7 +9,7 @@ import { Sidebar } from '@/components/layout/sidebar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NextERP - Sistema de Gestão Empresarial',
+  title: 'Vision - Sistema de Gestão Empresarial',
   description: 'Sistema ERP completo desenvolvido com Next.js',
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
         >
           <div className="flex h-screen overflow-hidden">
             <Sidebar />
-            <div className="flex-1 overflow-y-auto">
+            <div className="md:w-full flex-1 overflow-y-auto">
               <Header />
               <main className="p-6">{children}</main>
             </div>
